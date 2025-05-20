@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev_001": "nodemon --watch src --ext ts --exec ts-node src/001_two-sum/index.ts"
+    "dev_001": "nodemon --watch src --ext ts --exec ts-node src/001_two-sum/index.ts",
+    "dev_009": "nodemon --watch src --ext ts --exec ts-node src/009_palindrome/index.ts"
   },
   "repository": {
     "type": "git",
