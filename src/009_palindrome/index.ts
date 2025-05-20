@@ -1,15 +1,7 @@
 function isPalindrome(x: number): boolean {
-  // With string
-  //   const stringNum = String(x);
-  //   if (x < 0) return false;
-  //   if (stringNum.length === 1) return true;
-  //   for (let i = 0; i < stringNum.length / 2; i++) {
-  //     if (stringNum.charAt(i) !== stringNum.charAt(stringNum.length - 1 - i))
-  //       return false;
-  //   }
-  //   return true;
-
-  //   Without string;
+  // Step:
+  // 1. find the way to reverse from left to right
+  // 2. compare
   if (x < 0) return false;
   if (x % 10 == 0) return false;
   let original = x;
